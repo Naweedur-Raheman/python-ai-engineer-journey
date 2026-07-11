@@ -8,7 +8,7 @@ Hi, I'm **Naweedur Raheman**.
 
 I'm a 13-year-old student passionate about Python, Artificial Intelligence, and Machine Learning.
 
-This repository documents my complete journey from learning Python fundamentals to building real-world AI applications. Every lesson, challenge, project, and note represents another step toward my goal of becoming a Python AI Engineer.
+This repository documents my complete journey from learning Python fundamentals to building real-world AI applications. Every lesson, challenge, project, and note represents another step toward my goal of becoming a Python AI Engineer. For every challenge and lessons i use Google Antigravity as my mentor and and my IDE.
 
 ---
 
