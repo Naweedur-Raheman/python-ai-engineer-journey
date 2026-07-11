@@ -1,8 +1,7 @@
  =====================================================================
  🐍 LESSON 1: VARIABLES & TALKING TO THE COMPUTER 🖥️
  =====================================================================
- Welcome to your first Python file, Naweedur!
-
+ 
  Think of Python as a superpower. You write instructions in English-like 
  words, and the computer carries out your commands.
 
@@ -11,11 +10,7 @@
  2. Creating variables (Boxes that hold data)
  3. Getting user answers (Input)
 
-# To run this file, you can run: `python lessons/01_variables_and_inputs.py`
-# in your terminal!
  =====================================================================
-
-print("🤖 SYSTEM: Initializing Antigravity AI Learning Assistant...")
 
  ---------------------------------------------------------------------
  📦 Part 1: What is a Variable?
@@ -73,8 +68,7 @@ else:
  ---------------------------------------------------------------------
  🏆 YOUR CHALLENGE!
  ---------------------------------------------------------------------
- Now it's your turn to write some code!  
-
+ 
  CHALLENGE: Create a file called `challenge_1.py` in this workspace.
  In that file, write a program that:
  1. Asks the user for their name using input().
