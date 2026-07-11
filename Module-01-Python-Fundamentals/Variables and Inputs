@@ -1,0 +1,87 @@
+ =====================================================================
+ 🐍 LESSON 1: VARIABLES & TALKING TO THE COMPUTER 🖥️
+ =====================================================================
+ Welcome to your first Python file, Naweedur!
+
+ Think of Python as a superpower. You write instructions in English-like 
+ words, and the computer carries out your commands.
+
+ Let's start with the absolute essentials: 
+ 1. Printing text (Output)
+ 2. Creating variables (Boxes that hold data)
+ 3. Getting user answers (Input)
+
+# To run this file, you can run: `python lessons/01_variables_and_inputs.py`
+# in your terminal!
+ =====================================================================
+
+print("🤖 SYSTEM: Initializing Antigravity AI Learning Assistant...")
+
+ ---------------------------------------------------------------------
+ 📦 Part 1: What is a Variable?
+ ---------------------------------------------------------------------
+ Imagine you have empty cardboard boxes. You write a label on the box 
+ (the variable name) and put something inside the box (the value).
+
+ In Python, we do this using the equals sign (=).
+
+name = "Naweedur Raheman"  # This is a String (text), written in quotes
+age = 14                   # This is an Integer (whole number)
+is_learning_ai = True      # This is a Boolean (True or False)
+python_rating = 9.8        # This is a Float (decimal number)
+
+ Let's print them out! We use print() to show things on the screen.
+print("\n--- 📦 Lesson Data ---")
+print("Name:", name)
+print("Age:", age)
+print("Is learning AI?:", is_learning_ai)
+print("Python Rating:", python_rating)
+
+
+ ---------------------------------------------------------------------
+ 💬 Part 2: Interactive Input (Talking back!)
+ ---------------------------------------------------------------------
+ AI needs data from users to make smart decisions. 
+ We use input() to ask the user a question and save their answer in a box.
+
+print("\n--- 💬 Interactive Demo ---")
+print("Hello! I am your AI assistant.")
+
+ Let's ask you a question and save it in a variable called 'favorite_color'
+favorite_color = input("What is your favorite color? (Type it and press Enter): ")
+
+print(f"Awesome! {favorite_color} is a brilliant color. 🎨")
+
+
+ ---------------------------------------------------------------------
+ 🧠 Part 3: Mini AI Narrative Example
+ ---------------------------------------------------------------------
+ Let's make a mini AI agent that checks if a user is eligible to enter
+ the "Antigravity AI Junior Academy".
+ To do this, we'll convert inputs from text to numbers!
+
+print("\n--- 🧠 Antigravity Junior AI Academy Gatekeeper ---")
+user_age_str = input("How old are you? ")
+user_age = int(user_age_str)  # We convert the text input into a number using int()
+
+if user_age >= 13:
+    print("🔓 Access Granted! You are old enough to join the AI Academy! Welcome!")
+else:
+    print("🔒 Access Denied! You are a bit too young. Come back when you are 13!")
+
+
+ ---------------------------------------------------------------------
+ 🏆 YOUR CHALLENGE!
+ ---------------------------------------------------------------------
+ Now it's your turn to write some code!  
+
+ CHALLENGE: Create a file called `challenge_1.py` in this workspace.
+ In that file, write a program that:
+ 1. Asks the user for their name using input().
+ 2. Asks the user for their favorite AI technology (like 'Robots', 'Chatbots', or 'Self-driving cars').
+ 3. Asks the user how many hours a week they can study Python.
+ 4. Prints out a personalized message like:
+    "Hello [Name]! Studying [Hours] hours a week will make you an expert in [AI Technology] in no time!"
+
+# Write the code, run it to make sure it works, and tell me when you're done! 🚀
+ ---------------------------------------------------------------------
