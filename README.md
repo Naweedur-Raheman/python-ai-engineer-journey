@@ -4,24 +4,23 @@
 
 Welcome! 👋
 
-I'm **Naweedur Raheman**, a 13-year-old student passionate about Python, Artificial Intelligence, and Machine Learning.
+Hi, I'm **Naweedur Raheman**.
 
-This repository documents my journey from learning Python basics to building real-world AI projects.
+I'm a 13-year-old student passionate about Python, Artificial Intelligence, and Machine Learning.
 
-Everything here is part of my learning process, including challenges, notes, projects, and experiments.
+This repository documents my complete journey from learning Python fundamentals to building real-world AI applications. Every lesson, challenge, project, and note represents another step toward my goal of becoming a Python AI Engineer.
 
 ---
 
 # 🎯 Goal
 
-Become a skilled Python AI Engineer by continuously learning, building projects, and improving every day.
+To become a skilled Python AI Engineer by consistently learning, building projects, and solving real-world problems.
 
 ---
 
-# 📚 Learning Journey
+# 📚 Learning Roadmap
 
-## Module 1 • Python Fundamentals
-
+## 🟢 Module 1 • Python Fundamentals
 - [ ] Variables & Input
 - [ ] Decision Making
 - [ ] Loops
@@ -29,49 +28,106 @@ Become a skilled Python AI Engineer by continuously learning, building projects,
 
 ---
 
-## Module 2 • Data Structures
-
+## 🟡 Module 2 • Data Structures
 - [ ] Lists
 - [ ] Dictionaries
 - [ ] Tuples
 
 ---
 
-## Module 3 • Clean Coding & OOP
-
-- [ ] Object-Oriented Programming
-- [ ] Modules
-
----
-
-## 🚀 Projects
-
-Projects will be added here as I progress through my journey.
+## 🔵 Module 3 • Clean Coding & Object-Oriented Programming
+- [ ] OOP Basics
+- [ ] Modules & Imports
 
 ---
 
-## 📈 Progress
-
-Lessons Completed: **0**
-
-Challenges Completed: **0**
-
-Projects Built: **0**
+## 🟣 Module 4 • Data Science
+- [ ] NumPy Basics
+- [ ] Pandas Basics
+- [ ] Data Cleaning with Pandas
 
 ---
 
-## 💡 Why this repository exists
-
-I'm using this repository to:
-
-- Practice Python
-- Build AI projects
-- Improve problem-solving
-- Track my progress
-- Create a portfolio of my work
+## 🔴 Module 5 • Machine Learning
+- [ ] Linear Regression
+- [ ] Machine Learning Evaluation
 
 ---
 
-## ⭐ Thanks for visiting!
+## 🟠 Module 6 • Generative AI
+- [ ] Generative AI Fundamentals
+- [ ] AI Chatbot Development
 
-If you're reading this, thanks for checking out my journey.
+---
+
+## 🟢 Module 7 • AI Web Applications
+- [ ] Introduction to Streamlit
+- [ ] Streamlit AI Chatbot
+- [ ] Connecting AI to the Real World (Integrations)
+
+---
+
+## 🚀 Module 8 • Advanced AI
+- [ ] Advanced Machine Learning
+- [ ] Computer Vision
+
+---
+
+# 🚀 Real-World Projects
+
+As I progress, this repository will include projects such as:
+
+- 🤖 AI Assistant
+- 🏠 House Price Predictor
+- 💬 AI Chatbot
+- 🌐 Streamlit Web Apps
+- 📊 Data Analysis Projects
+- 🧠 Machine Learning Projects
+- 👁️ Computer Vision Projects
+
+---
+
+# 📈 Progress Tracker
+
+| Category | Progress |
+|----------|----------|
+| 📚 Lessons Completed | 0 |
+| 🏆 Challenges Completed | 0 |
+| 🚀 Projects Built | 0 |
+
+---
+
+# 🛠️ Skills I'm Learning
+
+- Python
+- Git & GitHub
+- Problem Solving
+- Object-Oriented Programming
+- NumPy
+- Pandas
+- Data Cleaning
+- Machine Learning
+- Generative AI
+- API Integration
+- Streamlit
+- Computer Vision
+
+---
+
+# 💡 Why this Repository Exists
+
+This repository is my public learning journal where I:
+
+- 📖 Learn new concepts
+- 💻 Complete coding challenges
+- 🚀 Build real-world projects
+- 📝 Document my progress
+- 📈 Track my growth as a developer
+
+---
+
+# ⭐ Thanks for Visiting!
+
+Every project in this repository represents another step in my journey.
+
+Thanks for stopping by and following my progress! 🚀
