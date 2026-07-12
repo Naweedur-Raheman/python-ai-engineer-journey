@@ -1,0 +1,84 @@
+# =====================================================================
+# 🐍 LESSON 3: LOOPS - THE POWER OF REPETITION 🔁
+# =====================================================================
+# Today, we are going to learn about LOOPS.
+# Loops let us repeat blocks of code. In AI, this is super important because:
+# - We loop through millions of images to train a computer vision model.
+# - We loop through chatbot conversations until the user says "Goodbye".
+# - We loop and update numbers thousands of times to train neural networks.
+#
+# In Python, we have two main kinds of loops:
+# 1. `for` loops (usually used when we know how many times we want to loop).
+# 2. `while` loops (used when we want to keep looping UNTIL a condition changes).
+# =====================================================================
+
+print("🤖 SYSTEM: Loading Repetition & Automation Module...")
+
+# ---------------------------------------------------------------------
+# 🔄 Part 1: The 'for' Loop and range()
+# ---------------------------------------------------------------------
+# `range(5)` generates numbers from 0 up to (but not including) 5: [0, 1, 2, 3, 4].
+# We use `for i in range(5)` to repeat something 5 times.
+
+print("\n--- 🔄 Simple counting loop ---")
+for i in range(5):
+    print(f"Loop iteration {i}: AI is scanning database...")
+
+
+# ---------------------------------------------------------------------
+# ⏳ Part 2: The 'while' Loop (Looping until stopped)
+# ---------------------------------------------------------------------
+# A `while` loop runs as long as a condition is True. 
+# Be careful! If the condition never becomes False, the loop runs forever! (An infinite loop).
+
+print("\n--- 🔋 Charging AI Battery ---")
+battery_percentage = 70
+
+while battery_percentage < 100:
+    battery_percentage += 10  # This adds 10 to battery_percentage every time
+    print(f"Charging... Currently at {battery_percentage}%")
+
+print("⚡ Battery fully charged! AI ready.")
+
+
+# ---------------------------------------------------------------------
+# 🕹️ Part 3: Controlling Loops (break)
+# ---------------------------------------------------------------------
+# Sometimes, you want to exit a loop early. We use the `break` keyword to stop a loop immediately.
+
+print("\n--- 🛡️ Cyber Security Intruder scanner ---")
+attempts = 0
+
+while True:  # "while True" loops forever unless stopped by a 'break'
+    attempts += 1
+    print(f"Scanning attempt {attempts}...")
+    
+    if attempts >= 3:
+        print("🚨 CRITICAL: Scanner caught anomaly! Exiting scan loop.")
+        break  # This breaks out of the while loop immediately
+
+
+# ---------------------------------------------------------------------
+# 🏆 YOUR CHALLENGE 3: Build a Number Guessing Game! 🎮
+# ---------------------------------------------------------------------
+# This is our first mini-project! We will build a game where the computer
+# selects a secret number, and the player has to guess it.
+#
+# CHALLENGE: Create a file called `challenge_3.py` inside the `lessons` folder.
+# Write a program that does the following:
+#
+# 1. Choose a secret number (e.g., `secret_number = 7`).
+# 2. Ask the user to guess the number.
+# 3. Create a loop that keeps asking the user to guess UNTIL they get it right.
+# 4. Inside the loop, check the user's guess:
+#    - If their guess is too high -> Print "Too high! Try again."
+#    - If their guess is too low -> Print "Too low! Try again."
+#    - If their guess is correct -> Print "🎉 Correct! You guessed the secret number!" and `break` the loop.
+#
+# 💡 BONUS CHALLENGE: Give the player a maximum of 5 attempts. If they run out of attempts,
+#    print "💥 Game over! You ran out of guesses." and break the loop.
+#
+# Create the file, test it out, and show me when you're ready! 🚀
+# ---------------------------------------------------------------------
+
+print("\n🎉 Lesson 3 complete! Ready to build your first game?")
