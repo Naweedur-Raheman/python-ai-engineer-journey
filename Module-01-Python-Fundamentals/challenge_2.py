@@ -1,6 +1,5 @@
 user_mood = input("How are you feeling today: ").lower()
 
-# pyrefly: ignore [parse-error]
 if user_mood == "happy" or user_mood == "excited":
     print("Thats awesome.Keep smiling!")
 elif user_mood == "sad" or user_mood == "tired":
