@@ -1,0 +1,93 @@
+# =====================================================================
+# 🐍 LESSON 2: MAKING DECISIONS WITH IF-ELSE (AI GATEWAYS) 🧠
+# =====================================================================
+# Today, we are going to teach our computer how to make DECISIONS.
+# In AI, making decisions based on data is everything. For example:
+# - A self-driving car decides to stop IF the light is red.
+# - A chatbot decides to say "Goodbye" IF you type "exit".
+#
+# We do this using:
+# 1. Comparison Operators: `==`, `>`, `<`, `>=`, `<=`, `!=`
+# 2. `if`, `elif` (else if), and `else` statements.
+# =====================================================================
+
+print("🤖 SYSTEM: Initializing Decision-Making Module...")
+
+# ---------------------------------------------------------------------
+# ⚖️ Part 1: Comparison Operators (True or False?)
+# ---------------------------------------------------------------------
+# When we compare things, Python evaluates it to either `True` or `False`.
+#
+# ==  means "is equal to"
+# !=  means "is NOT equal to"
+# >   means "greater than"
+# <   means "less than"
+
+my_score = 95
+passing_score = 50
+
+print("\n--- ⚖️ Comparison Examples ---")
+print("Is my score equal to 100?:", my_score == 100)  # Prints: False
+print("Is my score greater than passing?:", my_score > passing_score)  # Prints: True
+
+
+# ---------------------------------------------------------------------
+# 🧭 Part 2: If, Elif, and Else
+# ---------------------------------------------------------------------
+# We use these to direct the flow of our program based on conditions.
+
+print("\n--- 🚗 Autonomous Vehicle Test ---")
+traffic_light = "Yellow"
+
+if traffic_light == "Red":
+    print("🛑 ACTION: Stop the car immediately!")
+elif traffic_light == "Yellow":
+    print("⚠️ ACTION: Slow down and prepare to stop.")
+elif traffic_light == "Green":
+    print("🟢 ACTION: Keep driving safely.")
+else:
+    print("❓ ACTION: Unknown light color! Flashing hazard lights.")
+
+
+# ---------------------------------------------------------------------
+# 🛡️ Part 3: Logical Operators (and, or)
+# ---------------------------------------------------------------------
+# Sometimes, you want to check multiple things at once.
+# - `and` means BOTH conditions must be True.
+# - `or` means AT LEAST ONE condition must be True.
+
+print("\n--- 🛡️ Smart Home AI Security ---")
+is_door_locked = True
+is_motion_detected = True
+
+# Scenario 1: Door is locked, but motion is detected inside the house!
+if is_door_locked and is_motion_detected:
+    print("🚨 ALERT: Intruder detected! Sounding the alarm!")
+else:
+    print("🔒 System secure. No issues.")
+
+
+# ---------------------------------------------------------------------
+# 🏆 YOUR CHALLENGE 2!
+# ---------------------------------------------------------------------
+# Let's build a mini AI Spam Filter or Sentiment Analyzer!
+#
+# CHALLENGE: Create a file called `challenge_2.py` inside the `lessons` folder.
+# Write a program that acts as an "AI Emotion Detector".
+#
+# 1. Ask the user: "How are you feeling today?" using input().
+# 2. Store their answer in a variable called `user_mood`.
+# 3. Use `if`, `elif`, and `else` to check their response:
+#    - IF they type "happy" or "excited" -> Print a happy AI response (e.g., "That's awesome! Keep smiling! 😊").
+#    - ELIF they type "sad" or "tired" -> Print an encouraging AI response (e.g., "I'm sorry to hear that. Take a break! ☕").
+#    - ELIF they type "angry" or "stressed" -> Print a calming AI response (e.g., "Take a deep breath. You've got this! 🧘").
+#    - ELSE -> Print a generic curious response (e.g., "Interesting! Tell me more about that. 🤔").
+#
+# 💡 HINT: To make sure it matches even if they use uppercase letters, you can do:
+#    `user_mood = input("...").lower()`
+#    This converts their input to all lowercase letters!
+#
+# Create the file, test it, and let me know when you've finished! 🚀
+# ---------------------------------------------------------------------
+
+print("\n🎉 Lesson 2 complete! Ready for the AI Emotion Detector challenge?")
